@@ -1,0 +1,106 @@
+.button{
+  color: white;
+  background-color: inherit;
+  border-radius: 50%;
+  border-color: white;
+  text-align: center;
+  border-style: solid;
+  width: 50px;
+}
+
+.button:hover{
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+.container0{
+  background-image: url("images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  width: 1440px;
+  height: 800px;
+  margin: 0;
+  position: relative;
+}
+
+.container1{
+  padding: 40px 0 10px 40px;
+}
+
+.container2{
+  position: relative;
+}
+
+.container3{
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+  top: 730px;
+}
+
+.div1{
+  position: absolute;
+  left: 70px;
+  top: 70px;
+}
+
+.div2{
+  position: absolute;
+  left: 830px;
+  top: 70px;
+  color: white;
+}
+
+.heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.insta{
+  width: 30px;
+  height: 30px;
+}
+
+.fb{
+  width: 30px;
+  height: 30px;
+
+}
+
+.Register{
+  border-radius: 30px;
+  color: hsl(257, 40%, 49%);
+  background: white;
+  border-style: solid;
+  border-color: none;
+  width: 180px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 1px 3px 8px 1px #505050;
+}
+
+.Register:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.twitter{
+  width: 30px;
+  height: 30px;
+
+}
+
+.para{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  padding-right: 100px;
+  font-size: 17px;
+}
+
+.social{
+  display: inline-block;
+
+}
